@@ -1,6 +1,6 @@
 # Clinical Cues as Spiking Neurons
 
-A seizure detector for EEG that reads recordingx the way a neurologist does. Spiking-neurons detect nine clinical seizure cues, and two small logistic readouts (**866 learned weights**) turn those cues into alarms.
+A seizure detector for EEG that reads recordings the way a neurologist does. Spiking-neurons detect nine clinical seizure cues, and two small logistic readouts (**866 learned weights**) turn those cues into alarms.
 
 Developed by Rohan Yadav at the Center for Translational Cognitive Neuroscience (CTCN), VA Jamaica Plains Healthcare System / Boston University.
 
@@ -19,7 +19,7 @@ Developed by Rohan Yadav at the Center for Translational Cognitive Neuroscience 
 | Precision (share of alarms that are real seizures) | **79%** | 67% |
 | Median detection delay | 4.1 s | 5.0 s |
 
-\*SeizureTransformer (2025 seizure-detection challenge winner) was run with its released weights and scored with the same pipeline.
+\*Each model's threshold is set to give exactly one false alarm per hour on eval for a fair comparison. SeizureTransformer (2025 seizure-detection challenge winner) was run with its released weights and scored with the same pipeline.
 
 ### External test (Siena Scalp EEG Database: 14 patients, 141 h, 47 seizures, recorded in Italy)
 
