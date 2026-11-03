@@ -3,7 +3,7 @@
 A seizure detector for EEG that reads recordings the way a neurologist does. Spiking-neurons detect nine clinical seizure cues, and two small logistic readouts (**866 learned weights**) turn those cues into alarms.
 
 Developed by Rohan Yadav at the Center for Translational Cognitive Neuroscience (CTCN), VA Boston Healthcare System (Jamaica Plain) / Boston University.
-
+(Please note there will be more evaluation done at a later date.)
 ---
 
 ## Results
@@ -66,4 +66,4 @@ This project was developed with AI assistance (Claude, Gemini) for writing code 
 
 Thanks to Dr. Brandon Frank and the Center for Translational Cognitive Neuroscience for their support! Without them none of this would have been possible.
 
-## Code available upon request, email rohan.yadav2023@gmail.com
+## Code and technical slides available upon request, email rohan.yadav2023@gmail.com
